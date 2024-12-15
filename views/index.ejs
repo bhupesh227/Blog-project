@@ -1,0 +1,30 @@
+<%- include('partials/header.ejs') %>
+<div class="container bagImage">
+    <div class="content" >
+        <h2 class="Welcome">Welcome to the  <strong >EveryDay Blog!</strong> </h2>
+        <p class="Welcome-p">Here, you'll find a mix of interesting and useful content to brighten your day.<br> From helpful tips to the inspiring stories , we aim to offer something for everyone. </p>
+        <button class="Welcome-b"><a href="/Create">Create </a></button>
+    </div>
+</div>
+
+<div class="Posts"><h3>Posts:-</h3></div>
+<div class="container Grid">
+        <% data.forEach(item => { %>
+            <div class="card">
+                <% if (item.image) { %>
+                    <img src="<%= item.image %>" alt="<%= item.title %>">
+                <% } %>
+                <h2><%= item.title %></h2>
+                <p><strong>Writer:</strong> <%= item.name %></p>
+                <p><strong>Date :</strong><%= item.date%></p>
+                <p><%= item.paragraph %></p>
+                <div class="button-section">
+                    <a href="/edit/<%= item.id %>"><button class="edit-button"><img src="/images/edit.png" alt="edit icon"> Edit</button></a>
+                    <a href="/delete/<%= item.id %>"><button class="delete-button"><img src="/images/delete.png" alt="delete icon">Delete</button></a>
+                </div>
+            </div>
+        <% }) %>
+</div>
+ 
+
+<%- include('partials/footer.ejs') %>

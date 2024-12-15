@@ -1,0 +1,56 @@
+<%- include('partials/header.ejs') %>
+
+<div class="container">
+    <div class="new">
+        <form action="/submit" method="post" enctype="multipart/form-data">
+        
+            <!--input an image-->
+            <label for="image">Choose an image to upload:</label>
+            <input type="file" name="image" id="image" accept="image/*" required>
+            <br>
+            <!--author name-->
+            <label for="name"> Name:</label>
+            <input type="text" id="name" name="name" placeholder="Name of the User:-" required>
+            <br>
+            <!--input a heading-->
+            <label for="title"> Heading / Title:</label>
+            <input type="text" id="title" name="title" placeholder="Title for the Blog :-" required>
+            <br>
+            <!--input a paragraph-->
+            <label for="paragraph">Write ur experience:</label>
+            <textarea name="paragraph" id="paragraph" cols="15" rows="7" placeholder="Write a brief driscription :-" required></textarea>
+            <br>
+            <!--submit-->
+            
+            <input type="submit" value="Submit" class="submit">
+        
+        </form>
+    </div>
+</div>
+
+ 
+<script>
+    document.getElementById('bookForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent default form submission
+
+        const formData = new FormData(this);
+
+        fetch('/submit', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(result => {
+            if (result.success) {
+                window.location.href = '/'; // Redirect to homepage
+            } else {
+                alert('Error submitting form.');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error submitting form.');
+        });
+    });
+</script>
+<%- include('partials/footer.ejs') %>

@@ -1,0 +1,34 @@
+[
+  {
+    "image": "1729515457515.jpg",
+    "name": "Admin",
+    "title": "Rain Drop",
+    "paragraph": "Raindrops, though brief and fleeting, have a unique way of capturing the essence of nature. This photo, which beautifully highlights the delicate nature of a single raindrop, reminds me of the quiet yet powerful moments that often go unnoticed. For me, raindrops symbolize purity and renewal—whether they nourish the earth or mirror the world around them, they never fail to remind us of nature's intricate details. It's always amazing to think about how such a tiny element of nature can hold so much significance, both in the moment and through the lens of photography.",
+    "date": "8/10/2024",
+    "id": "8cbf1868-3299-4f83-b167-3ae3d9798dd4"
+  },
+  {
+    "image": "1733655872053.jpg",
+    "name": "Admin",
+    "title": "MONDARIAN ART",
+    "paragraph": "Piet Mondrian is well known for his innovative approach to abstract art, which combines aspects of cubism with the later movement of modernism. His painting Composition in Red, Yellow, Blue and Black is a good example of how these different forms were synthetically blended. This minimalist masterpiece uses bold shapes in bright colours to create a composition that forms an almost musical rhythm according to visual harmony and rhythmic balance. This balanced element makes the painting both simple and very attractive, while the combinations of shapes and colours evoke strong emotions in the viewer. It is a magnificent work that captures and immortalises the success of Mondrian's artistic genius.",
+    "date": "18/10/2024",
+    "id": "01746d99-7c33-49a5-8417-9deec63d284d"
+  },
+  {
+    "image": "1733655816699.jpg",
+    "name": "Admin",
+    "title": "Time for yourself",
+    "paragraph": "This wallpaper captures the need for peace and quiet with its Do Not Disturb sign, reminding us to take time for ourselves. The clock adds a touch of time, showing that even though the world keeps moving, it's important to pause and enjoy a moment of calm. It’s a gentle reminder to find balance between being present and taking a break from the busyness of life.",
+    "date": "1/11/2024",
+    "id": "ae1a0bf2-04c6-46d1-89de-98757a2ae2f9"
+  },
+  {
+    "image": "1734230294691.png",
+    "name": "Bhupesh Bora",
+    "title": "Weather website",
+    "paragraph": "This screenshot showcases a weather website built using an API to provide real-time updates on weather conditions. The integration of the API allows the site to pull accurate data, such as temperature, humidity, and forecasts, directly from trusted sources. It’s a great example of how APIs can power dynamic, real-time information on websites, making it easy for users to access weather updates wherever they are. With just a few clicks, this site delivers the kind of detailed weather insights that help us plan our day more effectively.\r\n\r\n",
+    "date": "30/11/2024",
+    "id": "6dc7e121-74ee-4c6b-8a24-8dd87612537e"
+  }
+]
