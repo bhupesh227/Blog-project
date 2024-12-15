@@ -42,12 +42,13 @@ Clone the repo to your local machine using Git:
 
 ```bash
 git clone https://github.com/bhupesh227/Blog-project.git
+```
 
 ### 2. Install Dependencies
-npm install
+` npm install
 
 ### 3. Run the Application Locally
-node index.js
+` node index.js
 The app will run on http://localhost:3000 by default. Open this URL in your web browser to access the app.
 
 ## To Do / Future Enhancements
